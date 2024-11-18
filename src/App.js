@@ -42,8 +42,8 @@ function Counter() {
 function App() {
   return (
     <>
-      {/* <CourseListCard/> */}
-      <Library/>
+      <CourseListCard/>
+      {/* <Library/> */}
     </>
   );
 }
