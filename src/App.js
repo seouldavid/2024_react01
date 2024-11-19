@@ -5,6 +5,7 @@ import Footer from './components/Footer';
 import Courseitem from './components/course/Courseitem';
 import CourseListCard from './components/course/CourseListCard';
 import Library from './components/step01/Library';
+import Profile from './components/step02/Profile';
 
 /*
 function Header() {
@@ -44,6 +45,8 @@ function App() {
     <>
       <CourseListCard/>
       {/* <Library/> */}
+      <hr/>
+      <Profile/>
     </>
   );
 }
