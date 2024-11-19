@@ -1,6 +1,7 @@
 import React from 'react';
 import Courseitem from './CourseItem';
 
+
 function CourseListCard({items}) {
     const [course1, course2, course3] = items;
     return (
@@ -10,11 +11,12 @@ function CourseListCard({items}) {
           <div className="courses">
             <div className='App'>
               <Courseitem {...course1} />
-              <Courseitem {...course2}/>
-              <Courseitem {...course3}/> 
+              <Courseitem {...course2} />
+              <Courseitem {...course3} /> 
             </div>
           </div>
         </div>
+        
       </div>
     );
 }
