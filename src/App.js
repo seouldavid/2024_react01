@@ -7,6 +7,7 @@ import Courseitem from './components/course/Courseitem';
 import Library from './components/step01/Library';
 import Profile from './components/step02/Profile';
 import CourseListCard from './components/step04/CourseListCard';
+import PackagingList from './components/step05/PackagingList';
 
 function App() {
   const items = [
@@ -31,7 +32,8 @@ function App() {
   return (
     <div className='App'>
       {ischk ? <h2>Hello, react</h2>: <CourseListCard items={items}/>}
-      {/* <CourseListCard items={items}/> */}
+      <hr/>
+      <PackagingList/>
     </div>
   );
 }
