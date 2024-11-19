@@ -10,11 +10,11 @@ import Welcome from './components/step03/Welcome';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    {/* <App /> */}
+    <App />
     {/* <App2 /> */}
-    <CommentList/>
-    <Welcome name="hong"/>
-    <Welcome name="park"/>
+    {/* <CommentList/> */}
+    {/* <Welcome name="hong"/>
+    <Welcome name="park"/> */}
   </React.StrictMode>
 );
 
